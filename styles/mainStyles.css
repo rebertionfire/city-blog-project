@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.container {
+    width: 80%;
+}
+
+.col-4:: {
+    border-right;
+    solid;
+}
