@@ -8,12 +8,12 @@ Key ideas:
 
 
 Metas:
-- One city only, chosen by us, website
-- Let the user choose the city through a form with is input (text, pictures, etc)
-- Dynamic form that lets the user choose through a search bar the city he wants to create.
+#1- One city only, chosen by us, website
 
+If #1 is met in 5 weeks go to #2:
 
-asfasfsa
+#2 - Let the user choose the city through a form with is input (text, pictures, etc)
 
-asdasdda
+If #2 is met in 7 weeks go to #3:
+#3 - Dynamic form that lets the user choose through a search bar the city he wants to create.
 
