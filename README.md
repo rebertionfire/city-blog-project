@@ -3,7 +3,12 @@
 
 This is the BLOG-PROJECT README file.
 
+
+wireframe: 
+https://www.draw.io/#G1calWMkiz7oiPNUdUyEX7PGajpWAcnitK
+
 Key ideas:
+
 
 
 
