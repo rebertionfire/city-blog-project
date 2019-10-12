@@ -7,7 +7,8 @@ Key ideas:
 
 
 
-Metas:
+Metas:  
+
 #1- One city only, chosen by us, website
 
 If #1 is met in 5 weeks go to #2:
