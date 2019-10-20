@@ -1,15 +1,62 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
+    
+
 }
 
-body {}
+body {
+    background: #4a4a4a;
+    height: 100%;
+    color: honeydew; 
 
-.container {
+
+}
+.navbar-light{
+background-color: grey ;
+}
+
+.bg-light{
+    background-color: grey ;
+
+}
+
+
+footer{
+    background-color: grey ;
+    margin-bottom: 20px;
+
+}
+
+footer .container {
     width: 80%;
+    text-align: center;
 }
 
-.col-4:: {
-    border-right;
-    solid;
+footer a {
+    color: honeydew; 
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    color: yellow; 
+    text-decoration: none;
+}
+
+
+.col-4 {
+
+}
+
+.picture-carousel{
+    margin: 10%;
+}
+
+#carouselExampleIndicators{
+    
+}
+.carousel-item{
+
 }
