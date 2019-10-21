@@ -1,62 +1,80 @@
 * {
     margin: 0;
     padding: 0;
-    text-align: center;
-    
+    /*     text-align: center;
+ */
+}
 
+html {
+    height: 100%;
 }
 
 body {
     background: #4a4a4a;
-    height: 100%;
-    color: honeydew; 
-
-
-}
-.navbar-light{
-background-color: grey ;
+    color: honeydew;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
-.bg-light{
-    background-color: grey ;
-
+.wrapper {
+    flex: 1 0 auto;
+    padding: 20px;
 }
 
+.navbar {
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+}
 
-footer{
-    background-color: grey ;
+#navbarNav {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+footer {
+    background-color: #4a4a4a;
     margin-bottom: 20px;
-
+    flex-shrink: 0;
+    padding: 20px;
 }
 
 footer .container {
     width: 80%;
     text-align: center;
+    background-color: grey;
 }
 
 footer a {
-    color: honeydew; 
+    color: honeydew;
     text-decoration: none;
-
 }
 
 footer a:hover {
-    color: yellow; 
+    color: yellow;
     text-decoration: none;
 }
 
+.col-4 {}
 
-.col-4 {
-
-}
-
-.picture-carousel{
+.picture-carousel {
     margin: 10%;
 }
 
-#carouselExampleIndicators{
-    
+.carousel-item {
+    height: 90vh;
 }
-.carousel-item{
 
+#carouselExampleIndicators {}
+
+.carousel-item {}
+
+#video-carousel-example {
+    position: absolute;
+    width: 100%;
 }
