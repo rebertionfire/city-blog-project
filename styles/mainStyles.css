@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*     text-align: center;
+ */
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #4a4a4a;
+    color: honeydew;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    z-index: 9999;
+}
+
+.clear {
+    clear: both;
+}
+
+.navbar::after {}
+
+#navbarNav {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.wrapper .container {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+footer {
+    background-color: #4a4a4a;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+footer .container {
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+}
+
+footer a {
+    color: honeydew;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.col-4 {}
+
+.picture-carousel {
+    margin: 10%;
+}
+
+.carousel-item {
+    height: 90vh;
+}
+
+#carouselExampleIndicators {}
+
+.carousel-item {}
+
+#video-carousel-example {
+    position: relative;
+    width: 100%;
+    margin-top: 7vh;
+    z-index: -8;
+}
