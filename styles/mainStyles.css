@@ -30,7 +30,14 @@ body {
     /* Position the navbar at the top of the page */
     width: 100%;
     /* Full width */
+    z-index: 9999;
 }
+
+.clear {
+    clear: both;
+}
+
+.navbar::after {}
 
 #navbarNav {
     flex-direction: row-reverse;
@@ -45,7 +52,7 @@ footer {
 }
 
 footer .container {
-    width: 80%;
+    width: 100%;
     text-align: center;
     background-color: grey;
 }
@@ -75,6 +82,8 @@ footer a:hover {
 .carousel-item {}
 
 #video-carousel-example {
-    position: absolute;
+    position: relative;
     width: 100%;
+    margin-top: 7vh;
+    z-index: -8;
 }
