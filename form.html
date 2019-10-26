@@ -43,18 +43,20 @@
 
     </header>
     <div class="wrapper">
-        <fieldset>
-            <legend>Send me a message</legend>
-            <label for="name">Name</label>
-            <input type="text" id="name">
-            <label for="email">E-mail</label>
-            <input type="email" id="email">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            <button type="submit">Submit</button>
-            <button type="clear">Clear</button>
+        <div class='container'>
+            <fieldset>
+                <legend>Send me a message</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+                <button type="submit" onclick="alert('clicked')">Submit</button>
+                <button type="clear" onclick="alert('cleared')">Clear</button>
 
-        </fieldset>
+            </fieldset>
+        </div>
     </div>
     <footer>
         <div class="container">
