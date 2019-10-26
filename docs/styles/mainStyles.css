@@ -23,25 +23,8 @@ body {
     padding: 20px;
 }
 
-.navbar {
-    position: fixed;
-    /* Set the navbar to fixed position */
-    top: 0;
-    /* Position the navbar at the top of the page */
-    width: 100%;
-    /* Full width */
-    z-index: 9999;
-}
-
-.clear {
-    clear: both;
-}
-
-.navbar::after {}
-
-#navbarNav {
-    flex-direction: row-reverse;
-    text-align: right;
+.jumbotron {
+    font-size: 0.8rem;
 }
 
 .wrapper .container {
@@ -49,19 +32,14 @@ body {
     margin-top: 10vh;
 }
 
-.col-4 {}
-
 .picture-carousel {
     margin: 10%;
 }
 
 .carousel-item {
-    height: 90vh;
+    height: 100%;
+    width: 100%;
 }
-
-#carouselExampleIndicators {}
-
-.carousel-item {}
 
 #video-carousel-example {
     position: relative;
