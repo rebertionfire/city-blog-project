@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,20 +18,21 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="styles/mainStyles.css">
-    <link rel="stylesheet" href="styles/menu.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    
+    <link rel="stylesheet" href="/styles/mainStyles.css">
+    <link rel="stylesheet" href="/styles/menu.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+
     <title>City Blog</title>
 </head>
+
 <body>
     <header>
         <div class="topnav" id="myTopnav">
             <a href="index.html" class="active"><i class="fa fa-fw fa-home" aria-hidden="true"></i> Home</a>
             <div class="topnav-right">
                 <a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</a>
-                <a href="#"><i class="fa fa-globe" aria-hidden="true"></i> The City</a>
-                <a href="form.html"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Contact</a>
+                <a href="theCity.html"><i class="fa fa-globe" aria-hidden="true"></i> The City</a>
+                <a href="#"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Contact</a>
                 <a href="about.html"><i class="fa fa-address-book" aria-hidden="true"></i> About</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars" aria-hidden="true"></i>
@@ -40,15 +42,20 @@
     </header>
 
     <section>
-        <h3>Monuments</h3>
-        <p>Lorem ipsulem, kaksakssajnduwqdiwqndiwqnfiwq nwionocoisancoiniodancin</p>
-        <img src="" alt="">
-    </section>
+        <form>
+            <fieldset>
+                <legend>Send me a message</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type="submit">Submit</button>
+                <button type="clear">Clear</button>
 
-    <section>
-        <h3>Gastronomy</h3>
-        <img src="" alt="">
-        <p>Lorem ipsulem, kaksakssajnduwqdiwqndiwqnfiwq nwionocoisancoiniodancin</p>        
+            </fieldset>
+        </form>
     </section>
 
     <footer>
@@ -60,6 +67,7 @@
             </div>
         </div>
     </footer>
+
 </body>
-    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="/js/menu.js"></script>
 </html>
