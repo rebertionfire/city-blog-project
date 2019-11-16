@@ -3,12 +3,60 @@
     margin: 0 auto;
 } 
 
+.text_title {
+    color: #ff471a;
+    text-align: center;
+} 
+
+.img_monuments, .img_gastronomy {
+    margin: 4px;
+} 
+
 .img_monuments {
     float: right;
-    margin: 2px;
+    
 } 
 
 .img_gastronomy {
     float: left;
-    margin: 2px;
+}
+
+.clear { 
+    clear: both;
+    margin-top: 2px;
+    margin-bottom: 2px;
+} 
+
+/* Modal */
+
+.modal_title {
+    color: crimson;
+} 
+
+.modal_text {
+    margin-top: 0;
+    color: black;
+} 
+
+.fade-scale {
+    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+    -moz-animation: 3s ease 0s normal forwards 1 fadein;
+    animation: 3s ease 0s normal forwards 1 fadein;
+}
+  
+  /* .fade-scale.in {
+    opacity: 1;
+    transform: scale(1);
+  } */
+
+@keyframes fadein{
+    0% { opacity:0; }
+    33% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    33% { opacity:0; }
+    100% { opacity:1; }
 }
