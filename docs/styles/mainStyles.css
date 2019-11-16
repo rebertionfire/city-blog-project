@@ -27,6 +27,8 @@ body {
 
 .jumbotron {
     font-size: 0.8rem;
+    animation: jumboIn 1s ease-in-out forwards; /* assign animation to monitor with 'monitorIn' as keyframe name */
+
 }
 
 .wrapper .container {
@@ -41,4 +43,31 @@ body {
 .carousel-item {
     height: 100%;
     width: 100%;
+    
+}
+
+@keyframes jumboIn{
+    from{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#carouselExampleIndicators{
+    animation: pictureCarouselIn 1s ease-in-out forwards; /* assign animation to monitor with 'monitorIn' as keyframe name */
+}
+
+@keyframes pictureCarouselIn{
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
