@@ -11,10 +11,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<<<<<<< HEAD:docs/html/gallery.html
     <link rel="stylesheet" href="/styles/galery.css">
     <link rel="stylesheet" href="/styles/mainStyles.css">
     <link rel="stylesheet" href="/styles/menu.css">
     <link rel="stylesheet" href="/styles/footer.css">
+=======
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/mainStyles.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/footer.css">
+>>>>>>> c3342df24d26e307a70d0c202a7135fe896dd37a:docs/gallery.html
 
     <title>City Blog</title>
 </head>
@@ -34,48 +41,52 @@
             </div>
         </div>
     </header>
+    <div class="wrapper">
 
     <!--Carousel Wrapper-->
-    <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-            <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
-            <li data-target="#video-carousel-example" data-slide-to="1"></li>
-            <li data-target="#video-carousel-example" data-slide-to="2"></li>
-        </ol>
-        <!--/.Indicators-->
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <video class="video-fluid" autoplay loop muted>
+    <section class="row">
+        <div id="video-carousel-example" class="carousel slide carousel-fade col-12" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#video-carousel-example" data-slide-to="1"></li>
+                <li data-target="#video-carousel-example" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner video" role="listbox">
+                <div class="carousel-item  active">
+                    <video class="video-fluid" autoplay loop muted>
                     <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
                 </video>
-            </div>
-            <div class="carousel-item">
-                <video class="video-fluid" autoplay loop muted>
+                </div>
+                <div class="carousel-item ">
+                    <video class="video-fluid" autoplay loop muted>
                     <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
                 </video>
-            </div>
-            <div class="carousel-item">
-                <video class="video-fluid" autoplay loop muted>
+                </div>
+                <div class="carousel-item ">
+                    <video class="video-fluid" autoplay loop muted>
                     <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4" />
                 </video>
+                </div>
             </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
         </div>
-        <!--/.Slides-->
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-        <!--/.Controls-->
-    </div>
-    <!--Carousel Wrapper-->
+        <!--Carousel Wrapper-->
+    </section>
 
+</div>
     <footer>
         <div class="container">
             <div class="row">

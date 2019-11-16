@@ -1,0 +1,15 @@
+/* #video-carousel-example {
+    position: relative;
+    width: 100%;
+    margin-top: 7vh;
+    z-index: -8;
+}
+
+.videoLargura {
+    width: 60% !important;
+} */
+
+.carousel-inner{
+    margin-top: 4vh;
+    max-height: 78vh;
+}

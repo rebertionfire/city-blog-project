@@ -21,6 +21,8 @@ body {
 .wrapper {
     flex: 1 0 auto;
     padding: 20px;
+    margin-top: 6vh;
+
 }
 
 .jumbotron {
@@ -39,11 +41,4 @@ body {
 .carousel-item {
     height: 100%;
     width: 100%;
-}
-
-#video-carousel-example {
-    position: relative;
-    width: 100%;
-    margin-top: 7vh;
-    z-index: -8;
 }

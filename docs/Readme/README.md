@@ -24,3 +24,4 @@ If #2 is met in 7 weeks go to #3:
 
 #3 - Dynamic form that lets the user choose through a search bar the city he wants to create.
 
+page: https://rebertionfire.github.io/city-blog-project/
