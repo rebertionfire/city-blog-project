@@ -1,4 +1,4 @@
-#video-carousel-example {
+/* #video-carousel-example {
     position: relative;
     width: 100%;
     margin-top: 7vh;
@@ -7,4 +7,9 @@
 
 .videoLargura {
     width: 60% !important;
+} */
+
+.carousel-inner{
+    margin-top: 4vh;
+    max-height: 78vh;
 }

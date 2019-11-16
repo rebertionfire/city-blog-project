@@ -21,7 +21,8 @@ body {
 .wrapper {
     flex: 1 0 auto;
     padding: 20px;
-    margin-top: 6vh ;
+    margin-top: 6vh;
+
 }
 
 .jumbotron {
