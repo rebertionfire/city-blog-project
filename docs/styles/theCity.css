@@ -1,62 +1,63 @@
 .div_text {
-    width: 70%;
-    margin: 0 auto;
-} 
-
-.text_title {
-    color: #ff471a;
-    text-align: center;
-} 
-
-.img_monuments, .img_gastronomy {
-    margin: 4px;
-} 
-
-.img_monuments {
-    float: right;
-    
-} 
-
-.img_gastronomy {
-    float: left;
+  width: 70%;
+  margin: 0 auto;
 }
 
-.clear { 
-    clear: both;
-    margin-top: 2px;
-    margin-bottom: 2px;
-} 
+.text_title {
+  color: #ff471a;
+  text-align: center;
+}
+
+.img_monuments,
+.img_gastronomy {
+  margin: 4px;
+}
+
+.img_monuments {
+  float: right;
+}
+
+.img_gastronomy {
+  float: left;
+}
+
+.clear {
+  clear: both;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
 
 /* Modal */
 
 .modal_title {
-    color: crimson;
-} 
+  color: crimson;
+}
 
 .modal_text {
-    margin-top: 0;
-    color: black;
-} 
+  margin-top: 0;
+  color: black;
+}
 
 .fade-scale {
-    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
-    -moz-animation: 3s ease 0s normal forwards 1 fadein;
-    animation: 3s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+  -moz-animation: 2s ease 0s normal forwards 1 fadein;
+  animation: 2s ease 0s normal forwards 1 fadein;
 }
-  
-  /* .fade-scale.in {
-    opacity: 1;
-    transform: scale(1);
-  } */
 
 @keyframes fadein{
     0% { opacity:0; }
-    33% { opacity:0; }
+    22% { opacity:0; }
     100% { opacity:1; }
 }
 
 @-webkit-keyframes fadein{
     0% { opacity:0; }
-    33% { opacity:0; }
+    22% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes fadein {
+    0% { opacity:0; }
+    22% { opacity:0; }
     100% { opacity:1; }
 }
