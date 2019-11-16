@@ -18,11 +18,19 @@ body {
     height: 100vh;
 }
 
+
 .wrapper {
     flex: 1 0 auto;
     padding: 20px;
     margin-top: 6vh;
 
+}
+
+.align-center{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .jumbotron {
