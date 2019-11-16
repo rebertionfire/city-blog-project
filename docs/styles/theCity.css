@@ -1,0 +1,14 @@
+.div_text {
+    width: 70%;
+    margin: 0 auto;
+} 
+
+.img_monuments {
+    float: right;
+    margin: 2px;
+} 
+
+.img_gastronomy {
+    float: left;
+    margin: 2px;
+}
