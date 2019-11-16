@@ -12,4 +12,17 @@
 .carousel-inner{
     margin-top: 4vh;
     max-height: 78vh;
+    animation: carouselIn 1s ease-in-out forwards; /* assign animation to monitor with 'monitorIn' as keyframe name */
+
+}
+
+@keyframes carouselIn{
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
