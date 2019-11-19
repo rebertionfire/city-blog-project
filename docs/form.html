@@ -41,32 +41,33 @@
         </div>
     </header>
 
-    <div class="wrapper row">
-<img class="col-4" src="https://placekitten.com/200/300" alt="kitten">
-    <section class="align-center col-8">
-        <form id="form" >
-            <fieldset>
-                <legend>Send me a message</legend>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input class="form-control" type="text" id="name" value="">
-                </div>
-                <div class="form-group">
-                    <label for="email">E-mail</label>
-                    <input class="form-control" type="email" id="email" value="">
-                </div>
-                <div class="form-group">
-                <label for="message">Message</label>
-                <textarea  class="form-control" name="message" id="message" value=""></textarea>
-                </div>
-                <a onclick="hello()"> Submit</a>
-                <a onclick="ClearFields()">Clear</a>
+    <section class="wrapper row">
+        <img class="col-4" src="https://placekitten.com/200/300" alt="kitten">
+        <div class="align-center col-8">
+            <form id="form">
+                <fieldset>
+                    <legend>Send me a message</legend>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" type="text" id="name" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input class="form-control" type="email" id="email" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" name="message" id="message" value=""></textarea>
+                    </div>
+                    <a onclick="hello()"> Submit</a>
+                    <a onclick="ClearFields()">Clear</a>
 
-            </fieldset>
-        </form>
-      
+                </fieldset>
+            </form>
+
+        </div>
     </section>
-</div>
+
     <footer>
         <div class="container-fluid">
             <div class="row">
@@ -76,11 +77,12 @@
             </div>
         </div>
     </footer>
-<div id="opacity" onclick="exitPopUp()"></div>
-<div id="popup" >
+    <div id="opacity" onclick="exitPopUp()"></div>
+    <div id="popup">
         <h1> Hi, <span id="nome"></span></h1>
         <p> We'll reach you at <span id="mail"></span></p>
-    </div>  
+    </div>
 </body>
-    <script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+
 </html>

@@ -1,0 +1,107 @@
+/*  Salut animation */
+.container {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.container span {
+  text-transform: uppercase;
+  display: block;
+}
+
+.text_we_create {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin-bottom: 15px;
+  background: black;
+  position: relative;
+  animation: text 3s 1;
+}
+
+.text_slaut_you {
+  font-size: 40px;
+}
+
+.text_slaut {
+  color: #6ab04c;
+  font-weight: 700;
+}
+
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -45px;
+    } 
+    30% {
+        letter-spacing: 17px;
+        margin-bottom: -45px;
+    } 
+    85% {
+        letter-spacing: 6px;
+        margin-bottom: -45px;
+    } 
+} 
+
+/* Rotary text */
+.container_text_rotary {
+  bottom: 10%;
+} 
+
+.text_rotary {  
+  position: relative;
+  width: 80%;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 5%;
+} 
+
+.text_rotary > li {
+  position: absolute;
+  font-weight: 700;
+  font-size: 40px;
+  text-shadow: -2px 2px 0 rgba(64, 0, 255, .4);
+  opacity: 0;
+  margin: 0 auto;
+  width: 100%;
+} 
+
+.text_rotary > li:first-child {
+  animation: loop 20s infinite;
+}
+
+.text_rotary > li:nth-child(2) {
+  animation: opsecond 20s infinite;
+}
+
+.text_rotary > li:last-child {
+  animation: oplast 20s infinite;
+}
+
+@keyframes loop {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  33% { opacity: 1; } 
+  44% { opacity: 0; }
+}
+
+@keyframes opsecond {
+  33% { opacity: 0; }
+  44% { opacity: 1; }
+  66% { opacity: 1; }
+  77% { opacity: 0; }
+}
+  
+@keyframes oplast {
+  66% { opacity: 0; }
+  77% { opacity: 1; }
+  100% { opacity: 1; }
+  0% { opacity: 1; }
+  10% { opacity: 0; }
+}
