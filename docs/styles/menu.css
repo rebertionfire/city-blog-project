@@ -1,11 +1,11 @@
 /* Add a black background color to the top navigation */
-
 .topnav {
     background-color: #333;
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+    min-width: 320px;
     z-index: 999;
 }
 
@@ -83,7 +83,6 @@
         text-align: left;
     }
 }
-
 
 @keyframes something{
     from {

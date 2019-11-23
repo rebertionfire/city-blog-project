@@ -1,9 +1,9 @@
 /*  Salut animation */
 .container {
   text-align: center;
-  position: absolute;
+  position: relative;
   top: 30%;
-  left: 50%;
+  left: 35%;
   transform: translate(-50%, -50%);
   width: 100%;
 }
@@ -50,6 +50,7 @@
 
 /* Rotary text */
 .container_text_rotary {
+  animation-delay: 2s;
   bottom: 10%;
 } 
 
