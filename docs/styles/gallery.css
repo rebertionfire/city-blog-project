@@ -13,6 +13,7 @@
     margin-top: 4vh;
     max-height: 78vh;
     animation: carouselIn 1s ease-in-out forwards; /* assign animation to monitor with 'monitorIn' as keyframe name */
+    margin-left: 13.3vw;
 
 }
 
