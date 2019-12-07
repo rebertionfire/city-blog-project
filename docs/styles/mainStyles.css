@@ -12,6 +12,9 @@ html {
 
 #mapid{
     height: 180px;
+    width: 80vw;
+    margin-left: 8%;
+
 }
 
 body {
