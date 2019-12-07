@@ -1,7 +1,6 @@
 const date = new Date();
 let locale = 'pt-PT';
 
-
 setInterval(() => {
     const dateTime = new Date();
     let time = dateTime.toLocaleTimeString(locale);

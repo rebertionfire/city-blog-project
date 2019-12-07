@@ -3,7 +3,7 @@
   text-align: center;
   position: relative;
   top: 30%;
-  left: 35%;
+  margin: 0 50%;
   transform: translate(-50%, -50%);
   width: 100%;
 }
@@ -61,6 +61,7 @@
   text-align: center;
   padding: 0;
   margin: 5%;
+  margin-top: -10%;
 } 
 
 .text_rotary > li {
@@ -106,3 +107,69 @@
   0% { opacity: 1; }
   10% { opacity: 0; }
 }
+
+/* Media Query fo Mobile Devices */
+@media screen and (max-width: 480px) {
+  .text_we_create {
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  
+  .text_slaut_you {
+    font-size: 20px;
+  }
+  
+  .text_rotary > li {
+    font-size: 20px;
+    margin-top: -38%;
+  } 
+} 
+
+/* Media Query for low resolution Tablets, Ipads */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .text_we_create {
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  
+  .text_slaut_you {
+    font-size: 20px;
+  }
+  
+  .text_rotary > li {
+    font-size: 20px;
+    margin-top: -8%;
+  } 
+} 
+
+/* Media Query for Tablets Ipads portrait mode */ 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .text_we_create {
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  
+  .text_slaut_you {
+    font-size: 20px;
+  }
+  
+  .text_rotary > li {
+    font-size: 20px;
+  } 
+} 
+
+/* Media Query for Laptops and Desktops */ 
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .text_we_create {
+    font-size: 35px;
+    letter-spacing: 6px;
+  }
+  
+  .text_slaut_you {
+    font-size: 35px;
+  }
+  
+  .text_rotary > li {
+    font-size: 35px;
+  } 
+} 
