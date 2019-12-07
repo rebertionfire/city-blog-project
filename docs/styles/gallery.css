@@ -1,19 +1,17 @@
-/* #video-carousel-example {
-    position: relative;
-    width: 100%;
-    margin-top: 7vh;
-    z-index: -8;
-}
 
-.videoLargura {
-    width: 60% !important;
-} */
+
 
 .carousel-inner{
     margin-top: 4vh;
     max-height: 78vh;
     animation: carouselIn 1s ease-in-out forwards; /* assign animation to monitor with 'monitorIn' as keyframe name */
-    margin-left: 13.3vw;
+    padding-left: 15vw;
+    max-width: 83vw;
+}
+
+
+
+.carousel-item{
 
 }
 
