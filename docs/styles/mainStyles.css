@@ -7,6 +7,14 @@
 
 html {
     height: 100%;
+
+}
+
+#mapid{
+    height: 180px;
+    width: 80vw;
+    margin-left: 8%;
+
 }
 
 body {
@@ -17,6 +25,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family: 'Roboto Slab', serif !important;
+
 }
 
 
