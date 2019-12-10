@@ -6,6 +6,7 @@
 .card_outside {
   transform: rotate(1.8deg);
   margin: 20px 10px;
+  margin-top: 60px;
 }
 
 .card_inside {
