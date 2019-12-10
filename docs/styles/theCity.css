@@ -4,7 +4,7 @@ body {
 } 
 
 .wrapper {
-  background-image: url("/pictures/title_evora.jpg");
+  background-image: url("../pictures/title_evora.jpg");
   min-height: 500px;
 
   background-attachment: fixed;
