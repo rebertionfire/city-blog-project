@@ -4,7 +4,8 @@ body {
 } 
 
 .wrapper {
-  background-image: url("../pictures/title_evora.jpg");
+  /* background-image: url("../pictures/title_evora.jpg"); */
+  background: #565656;
   min-height: 500px;
 
   background-attachment: fixed;
@@ -65,8 +66,8 @@ body {
 /* This is to the element not pass to another */
 .clear {
   clear: both;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Modal */

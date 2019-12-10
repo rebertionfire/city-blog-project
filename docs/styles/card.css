@@ -4,7 +4,7 @@
 }
 
 .card_outside {
-  transform: rotate(1.2deg);
+  transform: rotate(1.8deg);
   margin: 20px 10px;
 }
 
@@ -12,5 +12,5 @@
   padding: 5px;
   background-color: #d9d9d9;
   color: #666666;
-  transform: rotate(-1.2deg);
+  transform: rotate(-1.8deg);
 }
