@@ -17,14 +17,14 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
         integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-        crossorigin=""/>
-        <!-- Make sure you put this AFTER Leaflet's CSS -->
- <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
- integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
- crossorigin=""></script>
- <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+        crossorigin="" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -39,8 +39,8 @@
 
 <body>
     <header>
-        <div class="topnav" id="myTopnav">
-            <a href="#" class="active"><i class="fa fa-fw fa-home" aria-hidden="true"></i> Home</a>
+        <div class="topnav" id="myTopnav" role="menu" aria-labelledby="navbarMenu">
+            <a href="#" class="active"><i class="fa fa-fw fa-home" aria-hidden="false"></i> Home</a>
             <div class="topnav-right">
                 <a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</a>
                 <a href="theCity.html"><i class="fa fa-globe" aria-hidden="true"></i> The City</a>
@@ -58,19 +58,14 @@
             <div class="jumbotron col-8 offset-2">
                 <h1 class="display-4">Hello, fellow traveller!</h1>
                 <p class="lead">Just below you can access a map with some of Évora's beautiful tourist sites.<br>
-                Alternatively you can just go through to our recommendations page</p>
+                    Alternatively you can just go through to our recommendations page</p>
                 <hr class="my-4">
                 <p class="lead">
                     <a class="btn btn-primary btn-lg" href="theCity.html" role="button">Come explore the city!</a>
                 </p>
             </div>
         </div>
-<div id="mapid"></div>
-
-
-
-        
-
+        <div id="mapid"></div>
     </section>
 
     <footer>
@@ -87,6 +82,6 @@
 
 <script type="text/javascript" src="js/menu.js"></script>
 <script type="text/javascript" src="js/date_time.js"></script>
-<script type="text/javascript"src="js/map.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
 
 </html>
