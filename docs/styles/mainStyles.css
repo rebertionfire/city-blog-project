@@ -11,7 +11,7 @@ html {
 }
 
 #mapid{
-    height: 180px;
+    height: 80vh;
     width: 80vw;
     margin-left: 8%;
 
@@ -37,6 +37,24 @@ body {
 
 }
 
+.fix{
+    max-height: calc(100% - 66px);
+}
+
+.wrapper .col-4{
+    max-height: 100%;
+}
+
+.row-1{
+    height: 100vh;
+    display: contents;
+}
+
+#logo{
+    max-height: 25vw;
+    margin: 10px 0 0 25%;
+}
+
 .align-center{
     text-align: center;
     display: flex;
@@ -51,10 +69,16 @@ body {
 
 }
 
+.jumbotron h1, .jumbotron p {
+    padding: 1%;
+    text-align: center;
+    margin: 5%;
+} 
 .wrapper .container {
     text-align: center;
     margin-top: 10vh;
 }
+
 
 .picture-carousel {
     margin: 10%;
@@ -71,6 +95,25 @@ body {
     margin: 0 10px 0 10px;
     background-color: white ;
     color: gray !important;
+}
+
+.btn:hover {
+    animation: something2 2s ease alternate;
+
+}
+
+/*Add animation (btn color)*/
+
+@keyframes colorChange{
+    from{
+        background-color: white ;
+
+
+    }
+    to{
+    background-color: #4CAF50;
+
+    }
 }
 
 @keyframes jumboIn{
@@ -130,3 +173,5 @@ body {
     from {opacity: 0;}
     to {opacity: 1;}
   }
+
+  
