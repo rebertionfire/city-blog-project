@@ -29,13 +29,30 @@ body {
 
 }
 
-
 .wrapper {
     flex: 1 0 auto;
-    padding: 20px;
-    margin-top: 6vh;
+    /* padding: 20px; */
+    /* margin-top: 6vh; */
 
 }
+
+.wrapper {
+    /* background-image: url("../pictures/title_evora.jpg"); */
+    /* background: #565656; */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
+      url("../pictures/evora_bw.jpg");
+    min-height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    padding: 10px 0;
+  
+    margin: 0;
+    margin-top: 50px;
+  }
 
 .fix{
     max-height: calc(100% - 66px);
@@ -152,8 +169,6 @@ body {
     background-color: rgba(255,255,255,0.5);
     display: none;
 }
-
-
 
 /* Add animation (fade in the popup) */
 @keyframes fadeIn {

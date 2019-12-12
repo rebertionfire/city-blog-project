@@ -6,7 +6,7 @@ body {
 .wrapper {
   /* background-image: url("../pictures/title_evora.jpg"); */
   /* background: #565656; */
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
+  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
     url("../pictures/evora_bw.jpg");
   min-height: 500px;
 
@@ -18,7 +18,7 @@ body {
   padding: 10px 0;
 
   margin: 0;
-  margin-top: 50px;
+  margin-top: 50px; */
 }
 
 .div_text {
@@ -113,7 +113,7 @@ a:hover {
 .img_monuments_temple_diana,
 .img_gastronomy_acorda_alentejana {
   margin: 10px;
-  transition: all 2s ease-in-out;
+  transition: all 1.3s ease-in-out;
   transform: scale(1);
 }
 
@@ -122,7 +122,7 @@ a:hover {
 .img_gastronomy_migas_alentejana:hover,
 .img_monuments_temple_diana:hover,
 .img_gastronomy_acorda_alentejana:hover {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
   transform: scale(1.8);
 }
 
