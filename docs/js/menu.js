@@ -8,7 +8,6 @@ function myFunction() {
     }
 }
 
-
 function ClearFields() {
 
     document.getElementById("name").value = "";
@@ -30,11 +29,6 @@ function exitPopUp() {
     document.getElementById('popup').style.display = 'none'
     document.getElementById('opacity').style.display='none'
 }
-
-
-
-
-
 
 if (window.location.hash === '#text_modal_temple_diana'){
 
