@@ -30,8 +30,6 @@ body {
 }
 
 .wrapper {
-    /* background-image: url("../pictures/title_evora.jpg"); */
-    /* background: #565656; */
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
       url("../pictures/evora_bw.jpg");
     min-height: 500px;
@@ -170,5 +168,10 @@ body {
     from {opacity: 0;}
     to {opacity: 1;}
   }
+
+  @media screen and (max-width: 600px) {
+
+  }
+
 
   

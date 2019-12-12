@@ -3,24 +3,6 @@ body {
   font-size: 18px;
 }
 
-.wrapper {
-  /* background-image: url("../pictures/title_evora.jpg"); */
-  /* background: #565656; */
-  /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
-    url("../pictures/evora_bw.jpg");
-  min-height: 500px;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  padding: 10px 0;
-
-  margin: 0;
-  margin-top: 50px; */
-}
-
 .div_text {
   width: 80%;
   margin: 0 auto;
@@ -77,7 +59,8 @@ body {
 /* Links (a) */
 a {
   text-decoration: none;
-  color: #719192;
+  /* color: #719192; */
+  color: #4caf50;
 }
 
 a:hover {
