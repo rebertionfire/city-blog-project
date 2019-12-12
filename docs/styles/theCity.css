@@ -55,7 +55,8 @@ body {
 
 /* Buttons color */
 .btn-background {
-  color: #719192;
+  /* color: #719192; */
+  color: rgb(128, 128, 128);
   background-color: #fff;
   border: 1px solid #fff;
 }
