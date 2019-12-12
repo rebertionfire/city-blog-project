@@ -30,13 +30,6 @@ body {
 }
 
 .wrapper {
-    flex: 1 0 auto;
-    /* padding: 20px; */
-    /* margin-top: 6vh; */
-
-}
-
-.wrapper {
     /* background-image: url("../pictures/title_evora.jpg"); */
     /* background: #565656; */
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
@@ -47,6 +40,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    flex: 1 0 auto;
   
     padding: 10px 0;
   
