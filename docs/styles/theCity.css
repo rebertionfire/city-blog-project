@@ -55,14 +55,23 @@ body {
 
 /* Buttons color */
 .btn-background {
+  color: #719192;
   background-color: #fff;
   border: 1px solid #fff;
 }
 
 .btn-background:hover {
-  background-color: #c7f0db;
-  border: 1px solid #c7f0db;
+  background-color: #4caf50;
+  border: 1px solid #4caf50;
 }
+
+.close {
+  color: #e60000;
+} 
+
+.close:hover {
+  color: #e60000;
+} 
 
 /* Links (a) */
 a {
@@ -76,7 +85,17 @@ a:hover {
 }
 
 /* .wrapper_monuments {
+.btn{
+    border: 1px solid;
+    margin: 0 10px 0 10px;
+    background-color: white ;
+    color: gray !important;
+}
 
+.btn:hover {
+    animation: something2 2s ease alternate;
+
+}
 } */
 
 /* Alignment of the images */

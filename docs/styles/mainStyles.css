@@ -90,18 +90,6 @@ body {
     
 }
 
-.btn{
-    border: 1px solid;
-    margin: 0 10px 0 10px;
-    background-color: white ;
-    color: gray !important;
-}
-
-.btn:hover {
-    animation: something2 2s ease alternate;
-
-}
-
 /*Add animation (btn color)*/
 
 @keyframes colorChange{
