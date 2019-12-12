@@ -5,7 +5,9 @@ body {
 
 .wrapper {
   /* background-image: url("../pictures/title_evora.jpg"); */
-  background: #565656;
+  /* background: #565656; */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
+    url("../pictures/evora_bw.jpg");
   min-height: 500px;
 
   background-attachment: fixed;
@@ -31,14 +33,14 @@ body {
 
 .text_title,
 .text_title_Evora {
-  color: #6ab04c;
+  color: #4caf50;
   text-align: center;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 /* Title of the elements */
 .sub_title {
-  color: #4da6ff;
+  color: #719192;
   text-align: center;
   font-weight: 700;
   margin-top: 30px;
@@ -51,12 +53,34 @@ body {
   border-spacing: 1px;
 }
 
+/* Buttons color */
+.btn-background {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-background:hover {
+  background-color: #c7f0db;
+  border: 1px solid #c7f0db;
+}
+
+/* Links (a) */
+a {
+  text-decoration: none;
+  color: #719192;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #8bbabb;
+}
+
 /* .wrapper_monuments {
 
 } */
 
 /* Alignment of the images */
-.img_city {
+.img_city_center {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,7 +92,7 @@ body {
 .img_gastronomy_migas_alentejana,
 .img_monuments_temple_diana,
 .img_gastronomy_acorda_alentejana {
-  margin: 4px;
+  margin: 10px;
   transition: all 2s ease-in-out;
   transform: scale(1);
 }
@@ -91,7 +115,7 @@ body {
 
 /* Modal */
 .modal_title {
-  color: #6ab04c;
+  color: #4caf50;
   font-weight: 600;
 }
 
@@ -175,3 +199,19 @@ img {
     text-align: justify;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  /* Title of the card */
+  .text_title_Evora {
+    font-size: 2.1rem;
+  }
+}
+
+/* Media Query for low resolution Tablets, Ipads */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  /* Title of the card */
+  .text_title_Evora {
+    font-size: 2.9rem;
+  }
+}
+
