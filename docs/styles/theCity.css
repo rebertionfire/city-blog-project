@@ -48,6 +48,7 @@ body {
   border: 1px solid #4caf50;
 }
 
+/* Buttons close in the Modal */
 .close {
   color: #e60000;
 } 
@@ -68,20 +69,6 @@ a:hover {
   color: #8bbabb;
 }
 
-/* .wrapper_monuments {
-.btn{
-    border: 1px solid;
-    margin: 0 10px 0 10px;
-    background-color: white ;
-    color: gray !important;
-}
-
-.btn:hover {
-    animation: something2 2s ease alternate;
-
-}
-} */
-
 /* Alignment of the images */
 .img_city_center {
   display: flex;
@@ -95,7 +82,7 @@ a:hover {
 .img_gastronomy_migas_alentejana,
 .img_monuments_temple_diana,
 .img_gastronomy_acorda_alentejana {
-  margin: 10px;
+  /* margin: 10px; */
   transition: all 1.3s ease-in-out;
   transform: scale(1);
 }
@@ -108,6 +95,19 @@ a:hover {
   transition: all 0.1s ease-in-out;
   transform: scale(1.8);
 }
+
+/* Imagens margens */
+.img_city {
+  margin: 10px;
+} 
+
+.img_monuments_temple_diana, .img_monuments_chapel_bones {
+  margin-right: 10px;
+} 
+
+.img_gastronomy_acorda_alentejana, .img_gastronomy_migas_alentejana {
+  margin-left: 10px;
+} 
 
 /* This is to the element not pass to another */
 .clear {
