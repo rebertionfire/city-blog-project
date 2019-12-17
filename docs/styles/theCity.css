@@ -133,6 +133,11 @@ a:hover {
   animation: 2s ease 0s normal forwards 1 fadein;
 }
 
+/* Modal when is open is the Modal content */
+.modal-content {
+  margin-top: 50px;
+} 
+
 img {
   width: 300px;
   height: auto;
