@@ -37,7 +37,6 @@ body {
 
 /* Buttons color */
 .btn-background {
-  /* color: #719192; */
   color: rgb(128, 128, 128);
   background-color: #fff;
   border: 1px solid #fff;
@@ -82,7 +81,6 @@ a:hover {
 .img_gastronomy_migas_alentejana,
 .img_monuments_temple_diana,
 .img_gastronomy_acorda_alentejana {
-  /* margin: 10px; */
   transition: all 1.3s ease-in-out;
   transform: scale(1);
 }
