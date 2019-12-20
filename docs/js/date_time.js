@@ -4,6 +4,7 @@ let locale = 'pt-PT';
 setInterval(() => {
     const dateTime = new Date();
     let time = dateTime.toLocaleTimeString(locale);
+    
     document.querySelector("#hour").innerHTML = time;
 }, 1000);
 

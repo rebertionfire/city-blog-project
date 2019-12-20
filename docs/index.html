@@ -26,7 +26,6 @@
         crossorigin=""></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="styles/mainStyles.css">
@@ -35,12 +34,13 @@
     <link rel="stylesheet" href="styles/index.css">
 
     <title>City Blog</title>
-    <link rel="icon" href="pictures/logo.png" type="image/x-icon"/>
+    <link rel="icon" href="pictures/logo.png" type="image/x-icon" />
 </head>
 
 <body>
+    
     <header>
-        <div class="topnav" id="myTopnav">
+        <div class="topnav" id="menuTopnav" role="menu" aria-labelledby="navbarMenu">
             <a href="#" class="active"><i class="fa fa-fw fa-home" aria-hidden="true"></i> Home</a>
             <div class="topnav-right">
                 <a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</a>
@@ -57,13 +57,14 @@
     <section class="wrapper">
         <div class="row row-1">
             <div class="jumbotron col-8 offset-2">
-                <img id="logo" src="pictures/logo.png" alt="">
+                <img id="logo" src="pictures/logo.png" alt="Image of the Logo">
                 <h1 class="display-4">Hello, fellow traveller!</h1>
                 <p class="lead">Just below you can access a map with some of Évora's beautiful tourist sites.<br>
                     Alternatively you can just go through to our recommendations page</p>
                 <hr class="my-4">
                 <p class="lead">
-                    <a class="btn btn-primary btn-background" href="theCity.html" role="button">Come explore the city!</a>
+                    <a class="btn btn-primary btn-background" href="theCity.html" role="button">Come explore the
+                        city!</a>
                 </p>
             </div>
         </div>
@@ -71,10 +72,6 @@
         <div class="row row-1">
             <div id="mapid" class="col-8 offset-2"></div>
         </div>
-
-
-
-
     </section>
 
     <footer>

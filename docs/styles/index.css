@@ -1,127 +1,115 @@
-
 .jumbotron {
-    animation: jumboIn 1s ease-in-out forwards; /* assign animation to monitor with 'monitorIn' as keyframe name */
-    padding: 2%;
-    color: gray;
-    font-size: 0.8rem ;
-/*     height: calc(100vh - 53px);
- */    
+  animation: jumboIn 1s ease-in-out forwards; /* assign animation to monitor with 'monitorIn' as keyframe name */
+  padding: 2%;
+  color: gray;
+  font-size: 0.8rem;
+  /*     height: calc(100vh - 53px);
+ */
 }
 
-
-.display-4{
-    text-align: center;
-    color: #212529;
-    font-size: 3.5rem;
-    font-weight: 300;
-    line-height: 1.2;
+.display-4 {
+  text-align: center;
+  color: #212529;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
-.lead{
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: 300;
+.lead {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
-
-
 
 .btn-background {
-    /* color: #719192; */
-    color: rgb(128, 128, 128);
-    background-color: #fff;
-    border: 1px solid #fff;
-  }
-  
-  .btn-background:hover {
-    background-color: #4caf50;
-    border: 1px solid #4caf50;
-  }
+  /* color: #719192; */
+  color: rgb(128, 128, 128);
+  background-color: #fff;
+  border: 1px solid #fff;
+}
 
-
-.divisor{
-    background-color: gray;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px ;
-    margin-bottom: 20px ;
-    font-size: 1.5rem;
+.btn-background:hover {
+  background-color: #4caf50;
+  border: 1px solid #4caf50;
 }
 
 .divisor {
-	background-color: gray;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px ;
-    margin-bottom: 40px ;
-    font-size: 1.5rem;
+  background-color: gray;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
 }
-.divisor:after, .divisor:before {
-	top: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
+
+.divisor {
+  background-color: gray;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+}
+
+.divisor:after,
+.divisor:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
 }
 
 .divisor:after {
-	border-color: rgba(136, 183, 213, 0);
-	border-top-color: gray;
-	border-width: 30px;
-	margin-left: -30px;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: gray;
+  border-width: 30px;
+  margin-left: -30px;
 }
 .divisor:before {
-	border-color: rgba(194, 225, 245, 0);
-	border-top-color: gray;
-	border-width: 36px;
-	margin-left: -36px;
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: gray;
+  border-width: 36px;
+  margin-left: -36px;
 }
 
-#mapid{
-    height: 75vh;
+#mapid {
+  height: 75vh;
 }
 
-.row-1{
-    height: 100vh;
-    display: contents;
+.row-1 {
+  height: 100vh;
+  display: contents;
 }
 
-#logo{
-    max-height: 25vw;
-    margin: 10px 0 0 23%;
+#logo {
+  max-height: 25vw;
+  margin: 10px 0 0 23%;
 }
 
-@keyframes colorChange{
-    from{
-        background-color: white ;
-
-
-    }
-    to{
-    background-color: #4CAF50;
-
-    }
+@keyframes colorChange {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: #4caf50;
+  }
 }
 
-@media (min-width: 320px) and (max-width: 990px){
-    
+@media (min-width: 320px) and (max-width: 990px) {
+  .divisor {
+    font-size: 1rem;
+  }
 
-    .divisor{
-        font-size: 1.0rem ;
-    }
-
-
-
-    .display-4{
-        font-size: 2rem ;
-        font-weight: 200;
-        line-height: 1;
-    }
-    .lead{
-        font-size: 1rem;
-        font-weight: 200;
-    }
-
-
+  .display-4 {
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 1;
+  }
+  .lead {
+    font-size: 1rem;
+    font-weight: 200;
+  }
 }
